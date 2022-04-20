@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+h1{
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+
+.container{
+    height: 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 1em;
+
+    background-color: cadetblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgb(65, 128, 130);
+
+    height: 15%;
+    width: 40%;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    
+}
+
+.barra{
+    border: 1px solid black;
+    height: 25%;
+    width: 4%;
+
+    background-color: darkslategrey;
+
+    transition: 0.5s;
+}
+
+.container-responsive{
+    /* Posisionamiento */
+    position: relative;
+    /* dimesiones */
+    width: 30%;
+    height: 200px;
+    /* margenes */
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* bordes */
+    border: 1px solid black;
+    border-radius: 5px;
+    /* animacion */
+    transition: 0.5s;
+}
+
+.container-responsive-auto-adjusted{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    height: 90%;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.clock{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 150px;
+    height: 150px;
+
+    border: 1px black solid;
+    border-radius: 100%;
+
+}
+
+.hora{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 15px;
+    width: 30px;
+    height: 5px;
+    border: 2px solid black;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(0deg);
+}
+
+.minutos{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 30px;
+    width: 60px;
+    height: 2px;
+    border: 1px solid black;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(0deg);
+
+}
+
+.segundos{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 0px;
+    margin-left: 36px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 70px;
+    height: 1px;
+    border: 1px solid black;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(0deg);
+    transition: 0.2s;
+}
+
+.hora-1{
+    position: absolute;
+    left: 112px;
+    top: 17px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(-60deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-2{
+    position: absolute;
+    left: 135px;
+    top: 41px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(-30deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-3{
+    position: absolute;
+    left: 144px;
+    top: 73px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(0deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-4{
+    position: absolute;
+    left: 135px;
+    top: 105px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(30deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-5{
+    position: absolute;
+    left: 112px;
+    top: 127px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(60deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-6{
+    position: absolute;
+    left: 81px;
+    top: 137px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(90deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-7{
+    position: absolute;
+    left: 49px;
+    top: 129px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(120deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-8{
+    position: absolute;
+    left: 25px;
+    top: 107px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(150deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-9{
+    position: absolute;
+    left: 15px;
+    top: 75px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(180deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-10{
+    position: absolute;
+    left: 22px;
+    top: 42px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(210deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-11{
+    position: absolute;
+    left: 46px;
+    top: 17px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(240deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.hora-12{
+    position: absolute;
+    left: 79px;
+    top: 7px;
+    transform-origin: 0px 1px;
+    transform: translate(-50%, 1px) rotate(270deg);
+    border: 1px solid black;
+    width: 10px;
+    height: 4px;
+    background-color: black;
+}
+
+.barras-container{
+    /* color */
+    background-color: rgb(6, 26, 6);
+    /* display mode */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 10px;
+    /* dimesiones */
+    width: 70%;
+    height: 400px;
+    /* margenes */
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* bordes */
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.barras{
+    border: 3px solid black;
+    border-bottom: 10px solid #000;
+    height: 10%;
+    width: 5%;
+    background-color: rgb(30, 143, 143);
+    transition: 0.5s;
+    overflow: hidden;
+
+}
+
+.barra-in{
+    margin-top: -278px;
+    height: 307px;
+    background: -webkit-linear-gradient(top, red, lime);
+}
